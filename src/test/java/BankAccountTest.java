@@ -1,4 +1,5 @@
 
+import com.imt.mines.bank.BankAccount;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

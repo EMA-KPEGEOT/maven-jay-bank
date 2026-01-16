@@ -64,4 +64,23 @@ public class BankAccountTest {
         assertEquals(false, result); //
         assertEquals(500, bankAccount.getBalance(), 0);
     }
+
+
+    @Test
+    public void testDepositMethod() {
+        bankAccount = new BankAccount();
+        bankAccount.depositMoney(1000);
+
+        assertEquals(1000, bankAccount.getBalance(), 0);
+    }
+
+    @Test
+    public void testDepositNegativeMethod() {
+        bankAccount = new BankAccount();
+        bankAccount.depositMoney(-500);
+
+        assertEquals(0, bankAccount.getBalance(), 0); // balance should have not been increased
+    }
+
+
 }

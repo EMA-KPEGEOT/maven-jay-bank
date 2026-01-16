@@ -32,3 +32,11 @@ Generated classes and resources are created in the /target folder.
 ```
 the mvn package command covers also the mvn test command.
 Generated classes and resources are created in the /target folder as well as a final jar program.
+
+## Exercise 8
+I wrote tests for the `BankAccount` class and `withdraw` method.
+
+## Exercise 9
+By running the jacoco report for the first time, the coverage for the withdrawn method is 100%. (previous exercise)
+For this exercise I created tests for the deposit method to increase coverage.
+Now I have 100% coverage on both methods.

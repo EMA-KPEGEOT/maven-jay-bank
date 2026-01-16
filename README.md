@@ -40,3 +40,6 @@ I wrote tests for the `BankAccount` class and `withdraw` method.
 By running the jacoco report for the first time, the coverage for the withdrawn method is 100%. (previous exercise)
 For this exercise I created tests for the deposit method to increase coverage.
 Now I have 100% coverage on both methods.
+
+## Exercise 10
+See `.github/workflows`
